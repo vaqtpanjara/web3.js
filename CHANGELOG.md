@@ -238,3 +238,4 @@ Released with 1.0.0-beta.37 code base.
 - Extend `_txInputFormatter` with hex prefix check (#3317)
 - Extract revert reason string for geth >= 1.9.15 (#3520)
 - Incorrect param encoding of BN object in arrayed inputs (#3592)
+- Fixed `Buffer.concat` incompatibility to the Buffer impl in React (#3580)
